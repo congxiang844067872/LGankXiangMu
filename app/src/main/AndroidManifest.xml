@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bwie.lgankxiangmu">
+
+    <!-- 访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".url.Appmy"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Main2Activity" />
+        <activity android:name=".activity.MainFuLiActivity" />
+        <activity android:name=".activity.BenDiXiangCeActivity" />
+        <activity android:name=".activity.QianDuanActivity" />
+        <activity android:name=".activity.UrlActivity" />
+        <activity android:name=".activity.TuoZhanZiYuanActivity" />
+        <activity android:name=".activity.ShiPingActivity" />
+        <activity android:name=".activity.TuiJianActivity" />
+        <activity android:name=".activity.AppActivity" />
+        <activity android:name=".activity.ZhuTiQieHuanActivity" />
+        <activity android:name=".activity.SouSuoActivity" />
+        <activity android:name=".activity.SouSuoLieBiaoActivity" />
+        <activity android:name=".activity.FengXiangActivity"></activity>
+    </application>
+
+</manifest>

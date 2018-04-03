@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_1"
+        android:layout_width="match_parent"
+        android:layout_marginRight="2dp"
+        android:layout_height="120dp"
+        app:actualImageScaleType="centerCrop"
+
+        app:placeholderImage="@drawable/icon_placeholder"
+        app:placeholderImageScaleType="fitCenter"
+
+        app:progressBarImage="@drawable/icon_progress_bar"
+        app:progressBarImageScaleType="centerInside"
+        app:progressBarAutoRotateInterval="5000"
+
+        app:failureImage="@drawable/icon_failure"
+        app:failureImageScaleType="centerInside"
+
+        app:retryImage="@drawable/icon_retry"
+        app:retryImageScaleType="centerCrop"/>
+</RelativeLayout>
